@@ -66,13 +66,16 @@ The first three topics are the most relevant for both seasons in the combined fi
 
 Topic modeling is a bit tricky using anime conversation and text. Personally, better results came from Pointwise Mutual Information Collocation (PMI) and RAKE algorithm extracted "topics" aka keywords better than gensim/pyLDAvis. This may be because gensim/pyLDAvis require intense text cleanup to get better results. This analyst suspects keyword extraction algorithms likely do a better job at identifying topics (e.g. udpipe in R) than unsupervised topic modeling in gensim/pyLDAvis. With that said, udpipe performs a variety of text prep to get the keywords. The individual sentences matter less than the whole theme presented in the anime season or series.  
 
+This also makes me wonder if there are particular keywords slipped into characters' speech that may predict a series' success. 
+
 <h3>Future Projects</h3>
 
 Future projects may:
 
 * Look at season 2 on its own and compare to season 1.
 * Incorporate future seasons into the dataset and compare/contrast them.
-* Dashboard the results in Power BI or Tableau. 
+* Dashboard the results in Power BI or Tableau.
+* Perhaps...a project where series keywords are labeled with a successful or not successful classifier. Classify an anime series on the presence of words in the series.
 
 
 
