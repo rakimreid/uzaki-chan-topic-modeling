@@ -68,6 +68,17 @@ Topic modeling is a bit tricky using anime conversation and text. Personally, be
 
 This also makes me wonder if there are particular keywords slipped into characters' speech that may predict a series' success. 
 
+<h2>Part III: BERTopic Analysis</h2>
+
+Recent advances in natural language processing (NLP) spurred my desire to see how contemporary deep learning Python libraries would perform on the Season 1 and Season 2 text file. 
+The topics were much more accurate than in the Gensim and pyLDAvis work. Stop words and meaningless words disappeared. Keywords and topics revealed themselves. The image below shows the BERTopic generated 
+topics. 
+
+<img width="1000" height="500" alt="BERTopic - Top 8 topics" src="https://github.com/user-attachments/assets/f9fa5cf6-caa0-45c3-b37c-5fe4249371f1" />
+
+
+
+
 <h3>Future Projects</h3>
 
 Future projects may:
